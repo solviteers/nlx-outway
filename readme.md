@@ -19,6 +19,7 @@ De configuratie is te vinden in `/home/docker/outway/service-config.toml`:
 
 Wanneer de serviceconfiguratie wordt aangepast of wordt uitgebreid moet ook de `inway-container` opnieuw gestart worden.
 Gebruik hiervoor de volgende commando's:
+
 0. Vraag de id van de draaiende containers op met: `docker ps`, dit toont alle draaiende containers en geeft als het goed is één container terug
 0. Kopieer de waarde onder `CONTAINER ID`
 0. Stop de container met `docker stop {CONTAINER ID}`
