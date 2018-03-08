@@ -29,6 +29,7 @@ Gebruik hiervoor de volgende commando's:
 7. Start nu een nieuwe Inway-container met de aangepaste service configuratie:
 
 ```
+docker pull nlxio/inway:latest
 docker run -d \
 -v /home/docker/outway/root.crt:/certs/root.crt \
 -v /home/docker/outway/wizportaal.solvishare.nl.crt:/certs/inway.crt \
